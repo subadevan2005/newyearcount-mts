@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:ital@1&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img.jpg');
+    font-weight: bold;
+    color: white;
+    background-size: cover;
+    
+    
+
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+
+}
+.bodys{
+    padding-bottom: 150px;
+    padding-left: 50px;
+}
+.new{
+    font-family: 'Festive', cursive;
+    font-size: 100px;
+}
+.imgs{
+    position:relative;
+    width: 100px;   
+    height: 100px; 
+    padding-top: 20px;
+    padding-bottom: 50px;  
+    padding-left: 0px;   
+                                                                                                                                                                                                                    
+}
+.coun{
+    position: relative;
+    padding-left: 110px;
+ 
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-left: 40px;
+    
+}
+.box h2{
+    text-align: center;
+    font-size: 30px;
+}
+.box small{
+    font-size: 10px;
+}
