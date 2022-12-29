@@ -64,3 +64,14 @@ body{
 .box small{
     font-size: 10px;
 }
+@media (min-width:576px){
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img.jpg');
+    }
+    }
+
+@media (min-width:1280px){
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('new.jpg');
+}
+}
